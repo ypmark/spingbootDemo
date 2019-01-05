@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ypmai.blog.controller.HelloControllerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-12-24T13:13:22" hostname="MY" time="0.095">
+  <properties/>
+  <testcase name="testHello" classname="com.ypmai.blog.controller.HelloControllerTests" time="0.095"/>
+  <system-out><![CDATA[2018-12-24 21:13:21.967  INFO 3800 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ypmai.blog.controller.HelloControllerTests], using SpringBootContextLoader
+2018-12-24 21:13:21.967  INFO 3800 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.ypmai.blog.controller.HelloControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-24 21:13:21.983  INFO 3800 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-24 21:13:21.983  INFO 3800 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2da72717, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4cbe96bd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5201c6e0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@94f792f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d44688e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@25f71ee5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@799dfa7d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@be96260, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@35d77b8b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@28ca4be2]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2018-12-24 21:13:22.030  INFO 3800 --- [    Test worker] c.y.b.controller.HelloControllerTests    : Starting HelloControllerTests on MY with PID 3800 (started by 18205 in F:\Projects\IdeaProjects\blog)
+2018-12-24 21:13:22.030  INFO 3800 --- [    Test worker] c.y.b.controller.HelloControllerTests    : No active profile set, falling back to default profiles: default
+2018-12-24 21:13:22.139  INFO 3800 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2018-12-24 21:13:22.139  INFO 3800 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2018-12-24 21:13:22.264  INFO 3800 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 125 ms
+2018-12-24 21:13:22.296  INFO 3800 --- [    Test worker] c.y.b.controller.HelloControllerTests    : Started HelloControllerTests in 0.297 seconds (JVM running for 5.711)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
